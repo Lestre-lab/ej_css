@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#columnas{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	column-count: 4;
+	column-gap: 20px;
+	column-rule: 1px;
+	column-rule-color: white;
+	column-rule-style: dotted;
+}
+h1, h2{
+	margin-top: 25px;
+	font-family: 'Klee One', cursive;
+	margin-bottom: 10px; 
+	text-align: left;
+	color: white;
+}
+p{
+	color: #ffffff;
+	font-family: 'Klee One', cursive;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Klee One', cursive;
+		text-align: justify;
+		font-size: 20px;
+
+}
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-image: 
+	url(../dados.png),
+	url(../mesa.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+}
+.bordesredondos{
+	border-radius: 60px;
+}
+.transparencia{
+	width: 960px;
+	height: 640px;
+	color: rgb(90, 90, 90);
+	background-color: rgb(45, 45, 45);
+
+	background-image: url(../dados.png), url(../mesa.jpg);	
+	background-repeat: no-repeat;
+	background-position: 80%,4%;
+
+} 
+.sombra{
+	width: 960px;
+	height: 640px;
+} 
+.degradado {
+	width: 960px;
+	height: 640px;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9c8245), color-stop(0.5, #f3ebac), color-stop(1, #f3ebac));
+background-image: -moz-linear-gradient(top, #9c8245 0%, #f3ebac 50%, #f3ebac 100%);
+background-image: -o-linear-gradient(top, #9c8245 0%, #f3ebac 50%, #f3ebac 100%);
+background-image: -ms-linear-gradient(top, #9c8245 0%, #f3ebac 50%, #f3ebac 100%);
+}
+.filtro{
+	filter: blur(5px);
